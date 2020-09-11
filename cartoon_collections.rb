@@ -13,7 +13,7 @@ end
 
 def summon_captain_planet(calls) #code an argument here
   # Your code here
-  i = 0
+  calls
   
   
 end
