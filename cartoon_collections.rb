@@ -2,7 +2,11 @@ def roll_call_dwarves(names)# code an argument here
   # Your code here
   i = 0
   names.each do |name|
-    name.collect()
+    if names.length > 0
+      puts name.each_with_index
+    else
+      
+    i += 1
 end
 
 def summon_captain_planet# code an argument here
