@@ -7,6 +7,7 @@ def roll_call_dwarves(names)# code an argument here
     else
       false
     end
+  end
     i += 1
 end
 
