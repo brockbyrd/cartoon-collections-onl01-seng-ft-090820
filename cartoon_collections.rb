@@ -25,7 +25,11 @@ def long_planeteer_calls(words)# code an argument here
     i += 1
   end
   
-  if word_length.include?(true)
+  if word_length.include?(false)
+    false
+  else
+    true
+  end
 end
 
 def find_the_cheese# code an argument here
