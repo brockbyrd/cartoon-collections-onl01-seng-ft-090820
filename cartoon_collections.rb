@@ -13,7 +13,7 @@ end
 
 def summon_captain_planet(calls) #code an argument here
   # Your code here
-  calls.collect {|call| 
+  calls.collect {|call| puts "#{name.capitalize}!"
   
   
 end
