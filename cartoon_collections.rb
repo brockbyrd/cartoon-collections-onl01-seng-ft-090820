@@ -3,7 +3,7 @@ def roll_call_dwarves(names)# code an argument here
   i = 0
   names.each_with_index do |name, index|
     if names.length > 0
-      puts "#{index}. #{name}"
+      puts "#{index + 1}. #{name}"
     else
       false
     end
