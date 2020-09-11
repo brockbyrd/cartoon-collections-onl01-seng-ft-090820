@@ -21,7 +21,7 @@ def long_planeteer_calls(words)# code an argument here
   i = 0
   word_length = []
   while i < words.length
-    word_length << yield(word[i])
+    word_length << yield(words[i])
     i += 1
   end
   
