@@ -5,7 +5,8 @@ def roll_call_dwarves(names)# code an argument here
     if names.length > 0
       puts "#{index}. #{name}"
     else
-      
+      false
+    end
     i += 1
 end
 
