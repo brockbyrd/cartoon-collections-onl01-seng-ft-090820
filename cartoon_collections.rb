@@ -1,9 +1,9 @@
 def roll_call_dwarves(names)# code an argument here
   # Your code here
   i = 0
-  names.each do |name|
+  names.each_with_index do |name, index|
     if names.length > 0
-      puts name.each_with_index
+      puts "#{index}. #{name}"
     else
       
     i += 1
